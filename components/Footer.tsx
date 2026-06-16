@@ -9,11 +9,10 @@ interface FooterProps {
 export default function Footer({ darkMode }: FooterProps) {
   return (
     <footer
-      className={`border-t mt-24 ${
-        darkMode
+      className={`border-t mt-24 ${darkMode
           ? "bg-slate-950 border-slate-800 text-slate-400"
           : "bg-white border-slate-200 text-slate-500"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -24,9 +23,8 @@ export default function Footer({ darkMode }: FooterProps) {
                 <Zap className="w-4 h-4 text-white" />
               </div>
               <span
-                className={`font-bold text-lg ${
-                  darkMode ? "text-white" : "text-slate-900"
-                }`}
+                className={`font-bold text-lg ${darkMode ? "text-white" : "text-slate-900"
+                  }`}
               >
                 PrepWise AI
               </span>
@@ -40,21 +38,20 @@ export default function Footer({ darkMode }: FooterProps) {
           {/* Built By */}
           <div>
             <h3
-              className={`font-semibold mb-3 ${
-                darkMode ? "text-white" : "text-slate-900"
-              }`}
+              className={`font-semibold mb-3 ${darkMode ? "text-white" : "text-slate-900"
+                }`}
             >
               Built By
             </h3>
             <div className="space-y-2">
               <p className="text-sm font-medium">Ranveer Pensalwar</p>
               <a
-                href="mailto:ranveer@example.com"
+                href="mailto:pensalwarranveer1@gmail.com"
                 className="flex items-center gap-2 text-sm hover:text-violet-500 transition-colors"
                 id="footer-email"
               >
                 <Mail className="w-4 h-4" />
-                ranveerpensalwar@gmail.com
+                pensalwarranveer1@gmail.com
               </a>
             </div>
           </div>
@@ -62,9 +59,8 @@ export default function Footer({ darkMode }: FooterProps) {
           {/* Links */}
           <div>
             <h3
-              className={`font-semibold mb-3 ${
-                darkMode ? "text-white" : "text-slate-900"
-              }`}
+              className={`font-semibold mb-3 ${darkMode ? "text-white" : "text-slate-900"
+                }`}
             >
               Connect
             </h3>
@@ -103,9 +99,8 @@ export default function Footer({ darkMode }: FooterProps) {
         </div>
 
         <div
-          className={`border-t mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 ${
-            darkMode ? "border-slate-800" : "border-slate-200"
-          }`}
+          className={`border-t mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 ${darkMode ? "border-slate-800" : "border-slate-200"
+            }`}
         >
           <p className="text-sm">
             © 2024 PrepWise AI. Built by{" "}
