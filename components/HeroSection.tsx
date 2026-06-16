@@ -152,7 +152,7 @@ export default function HeroSection({
             >
               Ranveer Pensalwar
             </div>
-            <div className="text-xs">ranveerpensalwar@gmail.com</div>
+            <div className="text-xs">pensalwarranveer1@gmail.com</div>
           </div>
         </div>
 
