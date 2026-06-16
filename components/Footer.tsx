@@ -10,8 +10,8 @@ export default function Footer({ darkMode }: FooterProps) {
   return (
     <footer
       className={`border-t mt-24 ${darkMode
-          ? "bg-slate-950 border-slate-800 text-slate-400"
-          : "bg-white border-slate-200 text-slate-500"
+        ? "bg-slate-950 border-slate-800 text-slate-400"
+        : "bg-white border-slate-200 text-slate-500"
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -76,7 +76,7 @@ export default function Footer({ darkMode }: FooterProps) {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/ranveer-pensalwar"
+                href="https://www.linkedin.com/in/ranveer-pensalwar-b59b4a25b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm hover:text-violet-500 transition-colors"
@@ -103,7 +103,7 @@ export default function Footer({ darkMode }: FooterProps) {
             }`}
         >
           <p className="text-sm">
-            © 2024 PrepWise AI. Built by{" "}
+            © 2026 PrepWise AI. Built by{" "}
             <span className={darkMode ? "text-white" : "text-slate-900"}>
               Ranveer Pensalwar
             </span>
