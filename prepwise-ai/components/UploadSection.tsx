@@ -52,7 +52,13 @@ export default function UploadSection({
 
     // Dynamically import pdfjs-dist to avoid SSR issues
     const pdfjsLib = await import("pdfjs-dist");
-    pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+
+    // Use a legacy build worker that doesn't need a separate file fetch
+    // This avoids CDN/CORS issues in both dev and production
+    pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
+      "pdfjs-dist/build/pdf.worker.mjs",
+      import.meta.url
+    ).toString();
 
     const pdf = await pdfjsLib.getDocument({ data: uint8Array }).promise;
     let fullText = "";

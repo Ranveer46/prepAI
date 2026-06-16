@@ -32,11 +32,11 @@ export async function POST(request: NextRequest) {
     console.error("Generation error:", error);
 
     if (error instanceof Error) {
-      if (error.message.includes("GEMINI_API_KEY")) {
+      if (error.message.includes("GROQ_API_KEY")) {
         return NextResponse.json(
           {
             error:
-              "API key not configured. Please add GEMINI_API_KEY to environment variables.",
+              "API key not configured. Please add GROQ_API_KEY to environment variables.",
           },
           { status: 500 }
         );
