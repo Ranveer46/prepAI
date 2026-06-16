@@ -6,8 +6,8 @@
 
 <p>Upload any PDF. Pick a company. Get summaries, flashcards, interview questions, a mock interview, a roadmap, and networking messages — all in seconds.</p>
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-prepwise--ai.vercel.app-6366f1?style=for-the-badge&logoColor=white)](https://prepwise-ai.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Ranveer46-181717?style=for-the-badge&logo=github)](https://github.com/Ranveer46/prepwise-ai)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-prepwise--ai--rho.vercel.app-6366f1?style=for-the-badge&logoColor=white)](https://prepwise-ai-rho.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Ranveer46%2FprepAI-181717?style=for-the-badge&logo=github)](https://github.com/Ranveer46/prepAI)
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
@@ -100,8 +100,8 @@ Simply **upload a PDF** (resume, notes, job description, or study material), ent
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Ranveer46/prepwise-ai.git
-cd prepwise-ai
+git clone https://github.com/Ranveer46/prepAI.git
+cd prepAI
 
 # 2. Install dependencies
 npm install
@@ -266,9 +266,10 @@ Use this checklist to verify everything works after deployment:
 
 | | |
 |---|---|
-| 🌐 **Live Demo** | [prepwise-ai.vercel.app](https://prepwise-ai.vercel.app) |
-| 💻 **GitHub** | [github.com/Ranveer46/prepwise-ai](https://github.com/Ranveer46/prepwise-ai) |
+| 🌐 **Live Demo** | [prepwise-ai-rho.vercel.app](https://prepwise-ai-rho.vercel.app/) |
+| 💻 **GitHub** | [github.com/Ranveer46/prepAI](https://github.com/Ranveer46/prepAI) |
 | 🏢 **Digital Heroes** | [digitalheroesco.com](https://digitalheroesco.com) |
+| 🧑‍💼 **Portfolio** | [ranveer-s-porfolio.vercel.app](https://ranveer-s-porfolio.vercel.app/) |
 | 📬 **Contact** | [pensalwarranveer1@gmail.com](mailto:pensalwarranveer1@gmail.com) |
 
 ---
@@ -280,6 +281,6 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 ---
 
 <div align="center">
-  <p>Built with ❤️ by <strong>Ranveer Pensalwar</strong></p>
+  <p>Built with ❤️ by <a href="https://ranveer-s-porfolio.vercel.app/"><strong>Ranveer Pensalwar</strong></a></p>
   <p><em>PrepWise AI — because great preparation beats luck, every time.</em></p>
 </div>
